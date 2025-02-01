@@ -22,14 +22,15 @@ const UserManagement = () => {
 
   return (
     <div className="p-6 space-y-6">
-      <h1 className="text-2xl font-semibold bg-gray-200 h-10 
+      <h1 className="text-2xl font-semibold bg-gray-300 h-10 
       rounded flex items-center justify-center">User Management</h1>
       
       <h1 className='text-xl  font-semibold'>Add New User
       <button
         onClick={() => setShowModal(true)}
-        className="ml-20 bg-blue-400 text-white py-0 px-1 rounded-lg shadow-md"
-      >
+        className="ml-10 bg-gray-500 text-white 
+        py-1 px-2 rounded-lg shadow-md hover:bg-gray-400"
+ >
         Add User
       </button>
       </h1>

@@ -41,13 +41,13 @@ const AddUserModal = ({ onClose, onAddUser }) => {
             <button
               type="button"
               onClick={onClose}
-              className="bg-gray-500 text-white py-2 px-4 rounded-md"
+              className="bg-gray-500  hover:bg-gray-400  text-white py-2 px-4 rounded-md"
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="bg-blue-500 text-white py-2 px-4 rounded-md"
+              className="bg-gray-500 hover:bg-gray-400 text-white py-2 px-4 rounded-md"
             >
               Add User
             </button>

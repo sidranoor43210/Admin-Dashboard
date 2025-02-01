@@ -3,7 +3,7 @@ import React from 'react';
 const Dashboard = () => {
   return (
     <div>
-      <h1 className=" bg-gray-200 h-10 rounded flex items-center justify-center
+      <h1 className=" bg-gray-300 h-10 rounded flex items-center justify-center
        text-2xl font-semibold">Dashboard</h1>
       <div className="mt-6">
         {/* Example stats or cards for the Dashboard */}
