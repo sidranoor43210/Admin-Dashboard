@@ -6,7 +6,7 @@ const Dashboard = () => {
       <h1 className=" bg-gray-300 h-10 rounded flex items-center justify-center
        text-2xl font-semibold">Dashboard</h1>
       <div className="mt-6">
-        {/* Example stats or cards for the Dashboard */}
+        {/*cards for the Dashboard */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white p-4 rounded-lg shadow-md">
             <h2 className="font-semibold">Total Users</h2>
